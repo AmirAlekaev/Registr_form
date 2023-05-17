@@ -10,3 +10,10 @@
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     padding: 10px;
 }
+
+@media (max-width: 584px) {
+    .page {
+        align-items: flex-start;
+
+    }
+}

@@ -1,0 +1,10 @@
+.user-details__input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 30px);
+}
+
+@media (max-width: 584px) {
+    .user-details__input-box {
+        width: 100%
+    }
+}

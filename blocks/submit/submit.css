@@ -1,0 +1,16 @@
+.submit {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.submit:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}

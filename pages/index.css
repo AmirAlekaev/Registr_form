@@ -1,0 +1,16 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/__title/container__title.css);
+@import url(../blocks/user-details/user-details.css);
+@import url(../blocks/user-details/__input-box/user-details__input-box.css);
+@import url(../blocks/user-details/__input-box/_details/user-details__input-box_details.css);
+@import url(../blocks/user-details/__input-box/_input/user-details__input-box_input.css);
+@import url(../blocks/gender-details/__gender-title/gender-details__gender-title.css);
+@import url(../blocks/gender-details/__category/gender-details__category.css);
+@import url(../blocks/gender-details/__category/_label/gender-details__category_label.css);
+@import url(../blocks/gender-details/__category/_dot/gender-details__category_dot.css);
+@import url(../blocks/gender-details/__input-radio/gender-details__input-radio.css);
+@import url(../blocks/container/__button/container__button.css);
+@import url(../blocks/submit/submit.css);

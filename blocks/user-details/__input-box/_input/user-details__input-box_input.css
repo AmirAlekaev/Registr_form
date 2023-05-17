@@ -1,0 +1,17 @@
+.user-details__input-box_input {
+    height: 45px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details__input-box_input:focus,
+.user-details__input-box_input:valid {
+    border-color: #9b59b6;
+}

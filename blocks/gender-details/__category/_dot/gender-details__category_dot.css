@@ -1,0 +1,15 @@
+.gender-details__category_dot {
+    height: 14px;
+    width: 14px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all .3s ease;
+}
+
+#dot-1:checked~.gender-details__category label .gender-details__category_one,
+#dot-2:checked~.gender-details__category label .gender-details__category_two {
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}

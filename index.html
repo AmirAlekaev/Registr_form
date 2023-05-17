@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+    <div class="container">
+        <div class="container__title">Регистрация</div>
+        <form class="container__form" action="#">
+            <div class="user-details">
+                <div class="user-details__input-box">
+                    <span class="user-details__input-box_details">Полное имя</span>
+                    <input class="user-details__input-box_input" type="text" placeholder="Алекаев Амир Раильевич"
+                        required>
+                </div>
+                <div class="user-details__input-box">
+                    <span class="user-details__input-box_details">Имя пользователя</span>
+                    <input class="user-details__input-box_input" type="text" placeholder="Амир2023" required>
+                </div>
+                <div class="user-details__input-box">
+                    <span class="user-details__input-box_details">Почта</span>
+                    <input class="user-details__input-box_input" type="text" placeholder="144849@gmail.com" required>
+                </div>
+                <div class="user-details__input-box">
+                    <span class="user-details__input-box_details">Номер телефона</span>
+                    <input class="user-details__input-box_input" type="text" placeholder="+7(921)758-78-89" required>
+                </div>
+                <div class="user-details__input-box">
+                    <span class="user-details__input-box_details">Пароль</span>
+                    <input class="user-details__input-box_input" type="text" placeholder="Придумайте пароль" required>
+                </div>
+                <div class="user-details__input-box">
+                    <span class="user-details__input-box_details">Подтвердите пароль</span>
+                    <input class="user-details__input-box_input" type="text" placeholder="Подтвердите свой пароль"
+                        required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input class="gender-details__input-radio" type="radio" name="gender-details__category_gender"
+                    id="dot-1">
+                <input class="gender-details__input-radio" type="radio" name="gender-details__category_gender"
+                    id="dot-2">
+                <span class="gender-details__gender-title">Пол</span>
+                <div class="gender-details__category">
+                    <label class="gender-details__category_label" for="dot-1">
+                        <span class="gender-details__category_dot gender-details__category_one"></span>
+                        <span class="gender-details__category_gender">Мужской</span>
+                    </label>
+                    <label class="gender-details__category_label" for="dot-2">
+                        <span class="gender-details__category_dot gender-details__category_two"></span>
+                        <span class="gender-details__category_gender">Женский</span>
+                    </label>
+                </div>
+            </div>
+            <div class="container__button">
+                <input class="submit" type="submit" value="Зарегистрироваться">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

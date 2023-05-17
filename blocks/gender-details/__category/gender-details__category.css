@@ -1,0 +1,14 @@
+.gender-details__category {
+    display: flex;
+    gap: 15px;
+    width: 35%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+@media (max-width: 584px) {
+    .gender-details__category {
+        flex-direction: column;
+        width: 100%
+    }
+}
